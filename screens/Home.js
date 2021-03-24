@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ScrollView, Text, ScrollScrollView } from 'react-native';
+import { ScrollView } from 'react-native';
 import { Card, Button } from 'react-native-elements';
 
 function Home({ navigation }) {
