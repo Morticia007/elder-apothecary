@@ -9,7 +9,7 @@ function Home({ navigation }) {
         <Card.Image
           source={{
             uri:
-              '/Users/jacquelynhagman/workspaces/gitrepos/elder-apothecary/screens/Astrid.jpg',
+              '/Users/jacquelynhagman/workspaces/gitrepos/elder-apothecary/screens/carousel-1800-1.jpg',
           }}
         />
         <Card.Title>Welcome to Elder Apothecary</Card.Title>
