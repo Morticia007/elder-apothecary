@@ -1,10 +1,10 @@
 import * as React from 'react';
-import { ScrollView, Text, Button, ScrollScrollView } from 'react-native';
-import { Card } from 'react-native-elements';
+import { ScrollView, Text, ScrollScrollView } from 'react-native';
+import { Card, Button } from 'react-native-elements';
 
 function Home({ navigation }) {
   return (
-    <ScrollView style={{ marginTop: 20 }}>
+    <ScrollView style={{ marginTop: 10 }}>
       <Card>
         <Card.Image
           source={{
@@ -14,7 +14,7 @@ function Home({ navigation }) {
         />
         <Card.Title>Welcome to Elder Apothecary</Card.Title>
         <Card.Title>Find your favorite Apothecary products and more</Card.Title>
-        <Button title='Learn More' />
+        <Button title='Learn More' type='solid' />
       </Card>
       <Card>
         <Card.Image
@@ -27,7 +27,7 @@ function Home({ navigation }) {
         <Card.Title>
           Search multiple apothecaries for products you trust
         </Card.Title>
-        <Button title='Learn More' />
+        <Button title='Learn More' type='solid' />
       </Card>
       <Card>
         <Card.Image
@@ -40,7 +40,7 @@ function Home({ navigation }) {
         <Card.Title>
           It's simple! We care about your health and your time
         </Card.Title>
-        <Button title='Learn More' />
+        <Button title='Learn More' type='solid' />
       </Card>
     </ScrollView>
   );
