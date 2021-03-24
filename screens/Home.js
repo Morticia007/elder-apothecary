@@ -4,7 +4,7 @@ import { Card } from 'react-native-elements';
 
 function Home({ navigation }) {
   return (
-    <View style={{ marginTop: 100 }}>
+    <View style={{ marginTop: 30 }}>
       <Card>
         <Card.Image
           source={{
@@ -23,8 +23,10 @@ function Home({ navigation }) {
               '/Users/jacquelynhagman/workspaces/gitrepos/elder-apothecary/screens/carousel-1800-2 .jpg',
           }}
         />
-        <Card.Title>Welcome to Elder Apothecary</Card.Title>
-        <Card.Title>Find your favorite Apothecary products and more</Card.Title>
+        <Card.Title>Products you can Trust</Card.Title>
+        <Card.Title>
+          Search multiple apothecaries for products you trust
+        </Card.Title>
         <Button title='Learn More' />
       </Card>
       <Card>
@@ -34,8 +36,10 @@ function Home({ navigation }) {
               '/Users/jacquelynhagman/workspaces/gitrepos/elder-apothecary/screens/carousel-1800-3.jpeg',
           }}
         />
-        <Card.Title>Welcome to Elder Apothecary</Card.Title>
-        <Card.Title>Find your favorite Apothecary products and more</Card.Title>
+        <Card.Title>Why Elder Apothecary?</Card.Title>
+        <Card.Title>
+          It's simple! We care about your health and your time
+        </Card.Title>
         <Button title='Learn More' />
       </Card>
     </View>
