@@ -20,7 +20,7 @@ function Home({ navigation }) {
         <Card.Image
           source={{
             uri:
-              '/Users/jacquelynhagman/workspaces/gitrepos/elder-apothecary/screens/Astrid.jpg',
+              '/Users/jacquelynhagman/workspaces/gitrepos/elder-apothecary/screens/carousel-1800-2 .jpg',
           }}
         />
         <Card.Title>Welcome to Elder Apothecary</Card.Title>
@@ -31,7 +31,7 @@ function Home({ navigation }) {
         <Card.Image
           source={{
             uri:
-              '/Users/jacquelynhagman/workspaces/gitrepos/elder-apothecary/screens/Astrid.jpg',
+              '/Users/jacquelynhagman/workspaces/gitrepos/elder-apothecary/screens/carousel-1800-3.jpeg',
           }}
         />
         <Card.Title>Welcome to Elder Apothecary</Card.Title>
