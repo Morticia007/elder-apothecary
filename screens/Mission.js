@@ -4,7 +4,15 @@ import { ScrollView } from 'react-native';
 
 function Mission({ navigation }) {
   return (
-    <ScrollView style={{ marginTop: 40 }}>
+    <ScrollView style={{ marginTop: 100 }}>
+      <Card styles={{ padding: 30 }}>
+        <Card.Title>
+          'If you do not take time for your wellness, you will be forced to make
+          time for your illness.'
+        </Card.Title>
+        <Card.Title> Joyce Sunada </Card.Title>
+      </Card>
+
       <Card styles={{ padding: 30 }}>
         <Card.Title>Our Mission</Card.Title>
         <Card.Title>
