@@ -37,7 +37,7 @@ function Blog({ navigation }) {
           companies. Corporate companies, who do not care about your health in
           the long run, are only interested in the bottom dollar.
         </Card.Title>
-        <Input />
+        <Input placeholder='Comment' />
         <Icon name='heart-o' type='font-awesome' size={24} />
       </Card>
       <Card styles={{ padding: 30 }}>
@@ -68,7 +68,7 @@ function Blog({ navigation }) {
           quest to write out all commercial products and become self sustaining!
         </Card.Title>
 
-        <Input />
+        <Input placeholder='Comment' />
         <Icon name='heart-o' type='font-awesome' size={24} />
       </Card>
     </ScrollView>
