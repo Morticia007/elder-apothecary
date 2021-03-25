@@ -27,7 +27,7 @@ function About({ navigation }) {
         </Card.Title>
       </Card>
       <Card styles={{ padding: 30 }}>
-        <Card.Title>About the Founder of Elder Apothecary:</Card.Title>
+        <Card.Title>About the Founder of Elder Apothecary</Card.Title>
         <Card.Title>
           Ever since I was a child, I had a vision that I was a healer, and as
           time went on I realized I was just that. What I learned along the way
@@ -39,10 +39,10 @@ function About({ navigation }) {
       </Card>
 
       <Card styles={{ padding: 30 }}>
-        <Card.Title>Herbal medicine:</Card.Title>
+        <Card.Title>Herbal medicine (example):</Card.Title>
         <Card.Title>Oregano oil</Card.Title>
         <Card.Title>-Anti-microbial, anti-bacterial, anti-fungal-</Card.Title>
-        <Card.Title>Western Medicine:</Card.Title>
+        <Card.Title>Western Medicine (example):</Card.Title>
         <Card.Title>Amoxicillin</Card.Title>
         <Card.Title>-Antibiotic-</Card.Title>
       </Card>
