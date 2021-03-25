@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { ScrollView } from 'react-native';
-import { Card } from 'react-native-elements';
+import { ScrollView, View } from 'react-native';
+import { Card, Input, Icon } from 'react-native-elements';
 
 function Blog({ navigation }) {
   return (
@@ -37,6 +37,8 @@ function Blog({ navigation }) {
           companies. Corporate companies, who do not care about your health in
           the long run, are only interested in the bottom dollar.
         </Card.Title>
+        <Input />
+        <Icon name='heart-o' type='font-awesome' size={24} />
       </Card>
       <Card styles={{ padding: 30 }}>
         <Card.Title>How I found my calling</Card.Title>
@@ -65,6 +67,9 @@ function Blog({ navigation }) {
           knowledge that was already written in to my being. So it began, my
           quest to write out all commercial products and become self sustaining!
         </Card.Title>
+
+        <Input />
+        <Icon name='heart-o' type='font-awesome' size={24} />
       </Card>
     </ScrollView>
   );
