@@ -4,7 +4,7 @@ import { Card } from 'react-native-elements';
 
 function About({ navigation }) {
   return (
-    <ScrollView style={{ marginTop: 80 }}>
+    <ScrollView style={{ marginTop: 20 }}>
       <Card styles={{ padding: 30 }}>
         <Card.Title>
           'Light a fire of truth around your life, and all that is false in this
@@ -24,6 +24,17 @@ function About({ navigation }) {
           website to help apothecaries and people come back to thier roots and
           find the balance in life as well as the healer within each and
           everyone of us.{' '}
+        </Card.Title>
+      </Card>
+      <Card styles={{ padding: 30 }}>
+        <Card.Title>About the Founder of Elder Apothecary:</Card.Title>
+        <Card.Title>
+          Ever since I was a child, I had a vision that I was a healer, and as
+          time went on I realized I was just that. What I learned along the way
+          is we are all healers, we just have to learn how to use our gifts. As
+          a society, we have been pushed so far from our roots as a species that
+          we are willing to take medicine that basically advertises that it is
+          Anti-Biological being. Let me explain what I mean...
         </Card.Title>
       </Card>
 
