@@ -6,6 +6,7 @@ import Home from './screens/Home';
 import Contact from './screens/Contact';
 import About from './screens/About';
 import Blog from './screens/Blog';
+import Mission from './screens/Mission';
 
 const Drawer = createDrawerNavigator();
 
@@ -14,8 +15,9 @@ function App() {
     <NavigationContainer>
       <Drawer.Navigator initialRouteName='Home'>
         <Drawer.Screen name='Home' component={Home} />
-        <Drawer.Screen name='Contact Us' component={Contact} />
+        <Drawer.Screen name='Mission' component={Mission} />
         <Drawer.Screen name='About Us' component={About} />
+        <Drawer.Screen name='Contact Us' component={Contact} />
         <Drawer.Screen name='Blog' component={Blog} />
       </Drawer.Navigator>
     </NavigationContainer>

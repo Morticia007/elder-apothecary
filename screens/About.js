@@ -4,7 +4,7 @@ import { Card } from 'react-native-elements';
 
 function About({ navigation }) {
   return (
-    <ScrollView style={{ marginTop: 20 }}>
+    <ScrollView style={{ marginTop: 100 }}>
       <Card styles={{ padding: 30 }}>
         <Card.Title>
           'Light a fire of truth around your life, and all that is false in this
@@ -13,19 +13,7 @@ function About({ navigation }) {
         <Card.Title> ~ Mia Hollow ~ </Card.Title>
         <Card.Title> Quotes by Mia Hollow</Card.Title>
       </Card>
-      <Card styles={{ padding: 30 }}>
-        <Card.Title>Our Mission</Card.Title>
-        <Card.Title>
-          Welcome to Elder Apothecary. We are so glad you are here. We want
-          to help you on your journey to health and wellness. We understand that
-          you can be anywhere from a beginner to an expert in herbal health and
-          wellness and we will do everything in our power to make you a happy
-          returning customer. Fast forward to today I decided to create this
-          website to help apothecaries and people come back to thier roots and
-          find the balance in life as well as the healer within each and
-          everyone of us.{' '}
-        </Card.Title>
-      </Card>
+
       <Card styles={{ padding: 30 }}>
         <Card.Title>About the Founder of Elder Apothecary</Card.Title>
         <Card.Title>
