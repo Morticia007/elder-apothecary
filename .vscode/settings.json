@@ -1,0 +1,18 @@
+{
+  "files.exclude": {
+    "ios": true,
+    ".expo-shared": true,
+    ".expo": true,
+    "babel.config.js": true,
+    "yarn.lock": true,
+    "yarn-error.log": true,
+    ".vscode": true,
+    ".gitignore": true,
+    "app.json": true,
+    "screens/deodorant.png": true,
+    "screens/**.jpeg": true,
+    "screens/carousel-1800-2 .jpg": true,
+    "screens/carousel-1800-1.jpg": true,
+    "screens/Astrid.jpg": true
+  }
+}
