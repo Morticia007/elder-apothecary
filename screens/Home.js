@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { ScrollView } from 'react-native';
 import { Card, Button } from 'react-native-elements';
-
+import { colors } from '../colors';
 function Home({ navigation }) {
   return (
     <ScrollView style={{ marginTop: 10 }}>
@@ -14,7 +14,11 @@ function Home({ navigation }) {
         />
         <Card.Title>Welcome to Elder Apothecary</Card.Title>
         <Card.Title>Find your favorite Apothecary products and more</Card.Title>
-        <Button title='Learn More' type='solid' />
+        <Button
+          title='Learn More'
+          type='solid'
+          buttonStyle={{ backgroundColor: colors.green }}
+        />
       </Card>
       <Card>
         <Card.Image
@@ -27,7 +31,11 @@ function Home({ navigation }) {
         <Card.Title>
           Search multiple apothecaries for products you trust
         </Card.Title>
-        <Button title='Learn More' type='solid' />
+        <Button
+          title='Learn More'
+          type='solid'
+          buttonStyle={{ backgroundColor: colors.green }}
+        />
       </Card>
       <Card>
         <Card.Image
@@ -40,7 +48,11 @@ function Home({ navigation }) {
         <Card.Title>
           It's simple! We care about your health and your time
         </Card.Title>
-        <Button title='Learn More' type='solid' />
+        <Button
+          title='Learn More'
+          type='solid'
+          buttonStyle={{ backgroundColor: colors.green }}
+        />
       </Card>
     </ScrollView>
   );
