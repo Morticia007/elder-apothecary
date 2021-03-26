@@ -4,7 +4,7 @@ import { Card, Button } from 'react-native-elements';
 import { colors } from '../colors';
 function Home({ navigation }) {
   return (
-    <ScrollView style={{ marginTop: 10 }}>
+    <ScrollView style={{ marginTop: 10, backgroundColor: colors.gray }}>
       <Card>
         <Card.Image
           source={{
