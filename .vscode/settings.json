@@ -1,6 +1,5 @@
 {
   "files.exclude": {
-    "ios": true,
     ".expo-shared": true,
     ".expo": true,
     "babel.config.js": true,

@@ -1,22 +1,50 @@
 import * as React from 'react';
 import { ScrollView } from 'react-native';
 import { Card } from 'react-native-elements';
-
+import { colors } from '../colors';
 function About({ navigation }) {
   return (
-    <ScrollView style={{ marginTop: 100 }}>
-      <Card styles={{ padding: 30 }}>
-        <Card.Title>
-          'Light a fire of truth around your life, and all that is false in this
-          world will cower at the sight of you.'
+    <ScrollView
+      style={{
+        marginTop: 90,
+        marginBottom: 50,
+        backgroundColor: colors.lightGray,
+      }}
+    >
+      <Card
+        styles={{ marginTop: 50, marginBottom: 50, padding: 60 }}
+        containerStyle={{ backgroundColor: colors.green }}
+      >
+        <Card.Title
+          style={{ color: 'white', fontFamily: 'Montserrat-BoldItalic' }}
+        >
+          Light a fire of truth around your life, and all that is false in this
+          world will cower at the sight of you.
         </Card.Title>
-        <Card.Title> ~ Mia Hollow ~ </Card.Title>
-        <Card.Title> Quotes by Mia Hollow</Card.Title>
+        <Card.Title
+          style={{ color: 'white', fontFamily: 'Montserrat-Regular' }}
+        >
+          {' '}
+          ~ Mia Hollow ~{' '}
+        </Card.Title>
+        <Card.Title
+          style={{ color: 'white', fontFamily: 'Montserrat-Regular' }}
+        >
+          {' '}
+          Quotes by Mia Hollow
+        </Card.Title>
       </Card>
 
-      <Card styles={{ padding: 30 }}>
-        <Card.Title>About the Founder of Elder Apothecary</Card.Title>
-        <Card.Title>
+      <Card
+        styles={{ marginTop: 60, padding: 60 }}
+        containerStyle={{ backgroundColor: colors.green }}
+      >
+        <Card.Title style={{ color: 'white' }}>
+          About the Founder of Elder Apothecary
+        </Card.Title>
+        <Card.Title
+          style={{ color: 'white', fontFamily: 'Montserrat-Regular' }}
+        >
           Ever since I was a child, I had a vision that I was a healer, and as
           time went on I realized I was just that. What I learned along the way
           is we are all healers, we just have to learn how to use our gifts. As
@@ -26,13 +54,36 @@ function About({ navigation }) {
         </Card.Title>
       </Card>
 
-      <Card styles={{ padding: 30 }}>
-        <Card.Title>Herbal medicine (example):</Card.Title>
-        <Card.Title>Oregano oil</Card.Title>
-        <Card.Title>-Anti-microbial, anti-bacterial, anti-fungal-</Card.Title>
-        <Card.Title>Western Medicine (example):</Card.Title>
-        <Card.Title>Amoxicillin</Card.Title>
-        <Card.Title>-Antibiotic-</Card.Title>
+      <Card
+        styles={{ marginTop: 60, padding: 100 }}
+        containerStyle={{ backgroundColor: colors.green }}
+      >
+        <Card.Title style={{ color: 'white' }}>
+          Herbal medicine (example):
+        </Card.Title>
+        <Card.Title
+          style={{ color: 'white', fontFamily: 'Montserrat-Regular' }}
+        >
+          Oregano oil
+        </Card.Title>
+        <Card.Title
+          style={{ color: 'white', fontFamily: 'Montserrat-Regular' }}
+        >
+          -Anti-microbial, anti-bacterial, anti-fungal-
+        </Card.Title>
+        <Card.Title style={{ color: 'white' }}>
+          Western Medicine (example):
+        </Card.Title>
+        <Card.Title
+          style={{ color: 'white', fontFamily: 'Montserrat-Regular' }}
+        >
+          Amoxicillin
+        </Card.Title>
+        <Card.Title
+          style={{ color: 'white', fontFamily: 'Montserrat-Regular' }}
+        >
+          -Antibiotic-
+        </Card.Title>
       </Card>
     </ScrollView>
   );

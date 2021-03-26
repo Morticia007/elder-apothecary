@@ -7,10 +7,19 @@ import Contact from './screens/Contact';
 import About from './screens/About';
 import Blog from './screens/Blog';
 import Mission from './screens/Mission';
-
+import AppLoading from 'expo-app-loading';
+import { useFonts } from '@expo-google-fonts/inter';
 const Drawer = createDrawerNavigator();
 
 function App() {
+  let [fontsLoaded] = useFonts({
+    'Montserrat-BoldItalic': require('./assets/fonts/Montserrat-BoldItalic.ttf'),
+    'Montserrat-Regular': require('./assets/fonts/Montserrat-Regular.ttf'),
+  });
+
+  if (!fontsLoaded) {
+    return <AppLoading />;
+  }
   return (
     <NavigationContainer>
       <Drawer.Navigator initialRouteName='Home'>

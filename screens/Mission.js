@@ -1,22 +1,38 @@
 import * as React from 'react';
 import { Card } from 'react-native-elements';
 import { ScrollView, Dimensions, StyleSheet } from 'react-native';
+import { colors } from '../colors';
 
 function Mission({ navigation }) {
   return (
-    <ScrollView style={{ marginTop: 100, backgroundColor: '#5D7D41' }}>
-      <Card styles={{ padding: 30 }}>
-        <Card.Title>
+    <ScrollView style={{ marginTop: 100, backgroundColor: colors.lightGray }}>
+      <Card
+        styles={{ padding: 30 }}
+        containerStyle={{ backgroundColor: colors.green }}
+      >
+        <Card.Title
+          style={{ color: 'white', fontFamily: 'Montserrat-BoldItalic' }}
+        >
           'If you do not take time for your wellness, you will be forced to make
           time for your illness.'
         </Card.Title>
 
-        <Card.Title> Joyce Sunada </Card.Title>
+        <Card.Title
+          style={{ color: 'white', fontFamily: 'Montserrat-Regular' }}
+        >
+          {' '}
+          Joyce Sunada{' '}
+        </Card.Title>
       </Card>
 
-      <Card styles={{ padding: 30 }}>
-        <Card.Title>Our Mission</Card.Title>
-        <Card.Title>
+      <Card
+        styles={{ padding: 30 }}
+        containerStyle={{ backgroundColor: colors.green }}
+      >
+        <Card.Title style={{ color: 'white' }}>Our Mission</Card.Title>
+        <Card.Title
+          style={{ color: 'white', fontFamily: 'Montserrat-Regular' }}
+        >
           Welcome to Elder Apothecary. We are so glad you are here. We want
           to help you on your journey to health and wellness. We understand that
           you can be anywhere from a beginner to an expert in herbal health and
@@ -24,9 +40,16 @@ function Mission({ navigation }) {
           returning customer.
         </Card.Title>
       </Card>
-      <Card styles={{ padding: 30 }}>
-        <Card.Title>Fast forward to today</Card.Title>
-        <Card.Title>
+      <Card
+        styles={{ padding: 30 }}
+        containerStyle={{ backgroundColor: colors.green }}
+      >
+        <Card.Title style={{ color: 'white' }}>
+          Fast forward to today
+        </Card.Title>
+        <Card.Title
+          style={{ color: 'white', fontFamily: 'Montserrat-Regular' }}
+        >
           I decided to create this website to help apothecaries and people come
           back to thier roots and find the balance in life as well as the healer
           within each and everyone of us.{' '}

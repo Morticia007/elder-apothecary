@@ -1,20 +1,34 @@
 import * as React from 'react';
 import { ScrollView } from 'react-native';
 import { Card, Input, Icon } from 'react-native-elements';
-
+import { colors } from '../colors';
 function Blog({ navigation }) {
   return (
-    <ScrollView style={{ marginTop: 100 }}>
-      <Card styles={{ padding: 30 }}>
-        <Card.Title>Elder Apothecary News and Stories</Card.Title>
+    <ScrollView style={{ marginTop: 100, backgroundColor: colors.lightGray }}>
+      <Card
+        styles={{ padding: 30 }}
+        containerStyle={{ backgroundColor: colors.green }}
+      >
+        <Card.Title
+          style={{ color: 'white', fontFamily: 'Montserrat-BoldItalic' }}
+        >
+          Elder Apothecary News and Stories
+        </Card.Title>
 
         <Card.Title></Card.Title>
       </Card>
 
-      <Card styles={{ padding: 30 }}>
-        <Card.Title>It's all about health/wellness</Card.Title>
-        <Card.Title>June 23, 2019</Card.Title>
-        <Card.Title>
+      <Card
+        styles={{ padding: 30 }}
+        containerStyle={{ backgroundColor: colors.green }}
+      >
+        <Card.Title style={{ color: 'white' }}>
+          It's all about health/wellness
+        </Card.Title>
+        <Card.Title style={{ color: 'white' }}>June 23, 2019</Card.Title>
+        <Card.Title
+          style={{ color: 'white', fontFamily: 'Montserrat-Regular' }}
+        >
           There are so many reasons to switch to a more organic way of living.
           Do you know them? At one time in my 43 years, I did not. It took
           someone I love to get sick for the reality to slap me in the face! So,
@@ -40,10 +54,17 @@ function Blog({ navigation }) {
         <Input placeholder='Comment' />
         <Icon name='heart-o' type='font-awesome' size={24} />
       </Card>
-      <Card styles={{ padding: 30 }}>
-        <Card.Title>How I found my calling</Card.Title>
-        <Card.Title>June 26, 2019</Card.Title>
-        <Card.Title>
+      <Card
+        styles={{ padding: 30 }}
+        containerStyle={{ backgroundColor: colors.green }}
+      >
+        <Card.Title style={{ color: 'white' }}>
+          How I found my calling
+        </Card.Title>
+        <Card.Title style={{ color: 'white' }}>June 26, 2019</Card.Title>
+        <Card.Title
+          style={{ color: 'white', fontFamily: 'Montserrat-Regular' }}
+        >
           It was a day unlike any other, the day I realized,if I was gonna live
           a good life I better start looking at my lifestyle. No more excuses,
           no more turning a blind eye. It was a couple weeks after my Mother had
