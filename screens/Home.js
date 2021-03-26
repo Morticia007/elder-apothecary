@@ -59,7 +59,7 @@ function Home({ navigation }) {
         <Card.Image
           source={{
             uri:
-              '/Users/jacquelynhagman/workspaces/gitrepos/elder-apothecary/screens/carousel-1800-3.jpeg',
+              '/Users/jacquelynhagman/workspaces/gitrepos/elder-apothecary/screens/carousel-1800-03.jpeg',
           }}
         />
         <Card.Title
