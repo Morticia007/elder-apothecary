@@ -3,7 +3,11 @@ import * as Animatable from 'react-native-animatable';
 import { ScrollView, Text, ImageBackground } from 'react-native';
 import { Card, Button, Icon } from 'react-native-elements';
 import { colors } from '../colors';
-import { Input } from 'react-native-elements/dist/input/Input';
+import {
+  composeAsync,
+  isAvailableAsync,
+  MailComposerStatus,
+} from 'expo-mail-composer';
 function Contact({ navigation }) {
   return (
     <ScrollView style={{ marginTop: 50, backgroundColor: colors.lightGray }}>
@@ -52,7 +56,15 @@ function Contact({ navigation }) {
                 iconStyle={{ marginRight: 10 }}
               />
             }
-            onPress={() => this.sendMail()}
+            onPress={() =>
+              isAvailableAsync()
+                ? composeAsync()
+                    .then((result) => console.log(result))
+                    .catch((error) =>
+                      console.error('Failed to send mail', error),
+                    )
+                : console.error('No Mail App setup. Cannot send mail')
+            }
           />
         </Card>
       </Animatable.View>
