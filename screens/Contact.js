@@ -1,12 +1,19 @@
 import * as React from 'react';
 import * as Animatable from 'react-native-animatable';
-import { ScrollView, Text } from 'react-native';
+import { ScrollView, Text, ImageBackground } from 'react-native';
 import { Card, Button, Icon } from 'react-native-elements';
 import { colors } from '../colors';
 import { Input } from 'react-native-elements/dist/input/Input';
 function Contact({ navigation }) {
   return (
     <ScrollView style={{ marginTop: 50, backgroundColor: colors.lightGray }}>
+      <ImageBackground
+        style={{ heigh: 100, width: 100 }}
+        source={{
+          uri:
+            '/Users/jacquelynhagman/workspaces/gitrepos/elder-apothecary/assets/Astrid copy.JPG',
+        }}
+      />
       <Animatable.View animation='fadeInDown' duration={2000} delay={1000}>
         <Card
           title='Contact Information'
@@ -49,6 +56,15 @@ function Contact({ navigation }) {
           />
         </Card>
       </Animatable.View>
+      <Card containerStyle={{ backgroundColor: colors.green }}>
+        <Card.Image
+          style={{ height: 500 }}
+          source={{
+            uri:
+              '/Users/jacquelynhagman/workspaces/gitrepos/elder-apothecary/screens/ElderApothecary_v1light .png',
+          }}
+        ></Card.Image>
+      </Card>
     </ScrollView>
   );
 }
