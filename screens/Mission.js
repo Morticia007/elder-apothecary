@@ -8,7 +8,7 @@ function Mission({ navigation }) {
     <ScrollView style={{ marginTop: 100, backgroundColor: colors.lightGray }}>
       <Card
         styles={{ padding: 30 }}
-        containerStyle={{ backgroundColor: colors.green }}
+        containerStyle={{ backgroundColor: colors.green, marginTop: 60 }}
       >
         <Card.Title
           style={{ color: 'white', fontFamily: 'Montserrat-BoldItalic' }}
@@ -27,7 +27,7 @@ function Mission({ navigation }) {
 
       <Card
         styles={{ padding: 30 }}
-        containerStyle={{ backgroundColor: colors.green }}
+        containerStyle={{ backgroundColor: colors.green, marginTop: 80 }}
       >
         <Card.Title style={{ color: 'white' }}>Our Mission</Card.Title>
         <Card.Title
@@ -42,7 +42,7 @@ function Mission({ navigation }) {
       </Card>
       <Card
         styles={{ padding: 30 }}
-        containerStyle={{ backgroundColor: colors.green }}
+        containerStyle={{ backgroundColor: colors.green, marginTop: 90 }}
       >
         <Card.Title style={{ color: 'white' }}>
           Fast forward to today
