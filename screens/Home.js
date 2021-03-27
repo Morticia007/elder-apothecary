@@ -28,6 +28,7 @@ function Home({ navigation }) {
           title='Learn More'
           type='solid'
           buttonStyle={{ backgroundColor: colors.gray }}
+          onPress={() => navigation.navigate('Mission')}
         />
       </Card>
       <Card containerStyle={{ backgroundColor: colors.green }}>
@@ -53,6 +54,7 @@ function Home({ navigation }) {
           buttonStyle={{
             backgroundColor: colors.gray,
           }}
+          onPress={() => navigation.navigate('Blog')}
         />
       </Card>
       <Card containerStyle={{ backgroundColor: colors.green }}>
@@ -76,6 +78,7 @@ function Home({ navigation }) {
           title='Learn More'
           type='solid'
           buttonStyle={{ backgroundColor: colors.gray }}
+          onPress={() => navigation.navigate('About Us')}
         />
       </Card>
     </ScrollView>

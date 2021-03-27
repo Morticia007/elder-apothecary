@@ -56,15 +56,17 @@ function Contact({ navigation }) {
           />
         </Card>
       </Animatable.View>
-      <Card containerStyle={{ backgroundColor: colors.green }}>
-        <Card.Image
-          style={{ height: 500 }}
-          source={{
-            uri:
-              '/Users/jacquelynhagman/workspaces/gitrepos/elder-apothecary/screens/ElderApothecary_v1light .png',
-          }}
-        ></Card.Image>
-      </Card>
+      <Animatable.View animation='fadeInUp' duration={2000} delay={1000}>
+        <Card containerStyle={{ backgroundColor: colors.green }}>
+          <Card.Image
+            style={{ height: 500 }}
+            source={{
+              uri:
+                '/Users/jacquelynhagman/workspaces/gitrepos/elder-apothecary/screens/ElderApothecary_v1light .png',
+            }}
+          ></Card.Image>
+        </Card>
+      </Animatable.View>
     </ScrollView>
   );
 }
