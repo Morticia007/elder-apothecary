@@ -13,7 +13,7 @@ function About({ navigation }) {
     >
       <Card
         styles={{ marginTop: 50, marginBottom: 50, padding: 60 }}
-        containerStyle={{ backgroundColor: colors.green }}
+        containerStyle={{ backgroundColor: colors.green, paddingTop: 50 }}
       >
         <Card.Title
           style={{ color: 'white', fontFamily: 'Montserrat-BoldItalic' }}
@@ -37,7 +37,7 @@ function About({ navigation }) {
 
       <Card
         styles={{ marginTop: 60, padding: 60 }}
-        containerStyle={{ backgroundColor: colors.green }}
+        containerStyle={{ backgroundColor: colors.green, paddingTop: 40 }}
       >
         <Card.Title style={{ color: 'white' }}>
           About the Founder of Elder Apothecary
@@ -56,7 +56,7 @@ function About({ navigation }) {
 
       <Card
         styles={{ marginTop: 60, padding: 100 }}
-        containerStyle={{ backgroundColor: colors.green }}
+        containerStyle={{ backgroundColor: colors.green, paddingTop: 40 }}
       >
         <Card.Title style={{ color: 'white' }}>
           Herbal medicine (example):
