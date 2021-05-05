@@ -30,6 +30,8 @@ class Products extends Component {
     }
   };
   renderProduct = ({ item }) => (
+    // render an individual product component with flatlist
+    // this is defined in the Product.js file
     <Product
       name={item.name}
       price={item.price}
